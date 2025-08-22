@@ -1,0 +1,400 @@
+
+Lmod is automatically replacing "nvhpc/23.9" with "gcc-native/12.3".
+
+
+Lmod is automatically replacing "PrgEnv-nvhpc/8.5.0" with "PrgEnv-gnu/8.5.0".
+
+
+Due to MODULEPATH changes, the following have been reloaded:
+  1) cray-mpich/8.1.28
+
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/nanoGPT-HPTransfer/train_adopt.py:230: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=(dtype == 'float16'))
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:521: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and not all(
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:354: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and capturable:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:409: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:
+/lus/eagle/projects/datascience_collab/agupta/venv_nanogpt2/lib/python3.11/site-packages/adopt/adopt.py:442: UserWarning: `torch._utils.is_compiling` is deprecated. Use `torch.compiler.is_compiling` instead.
+  if not torch._utils.is_compiling() and device_state_steps[0].is_cpu:

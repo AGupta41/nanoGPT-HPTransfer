@@ -15,6 +15,21 @@ import torch
 import torch.nn as nn
 from torch.nn import functional as F
 
+from sophia import SophiaG
+import sys
+sys.path.append("..")
+#from adopt.adopt import ADOPT
+
+#from intel_extension_for_pytorch.optim._lamb import Lamb
+from deepspeed.ops.lamb import FusedLamb
+
+optimizer_dict = {'adamw': torch.optim.AdamW,
+                  'sophiag': SophiaG,
+                  #'adopt': ADOPT,
+                  'sgd': torch.optim.SGD,
+                  'lamb': FusedLamb
+        }
+
 class LayerNorm(nn.Module):
     """ LayerNorm but with an optional bias. PyTorch doesn't support simply bias=False """
 
@@ -302,7 +317,7 @@ class GPT(nn.Module):
 
         return model
 
-    def configure_optimizers(self, weight_decay, learning_rate, betas, adam_eps, device_type):
+    def configure_optimizers(self, optimizer_name, weight_decay, learning_rate, betas, adam_eps, device_type, rho):
         # start with all of the candidate parameters
         param_dict = {pn: p for pn, p in self.named_parameters()}
         # filter out those that do not require grad
@@ -332,11 +347,14 @@ class GPT(nn.Module):
             width_lr_scaling = (1 / self.config.mup_width_multiplier)
             if self.config.depth_alpha_enabled:
                 ### Begin CompleteP code ###
-                adam_eps *= (1 / self.config.mup_width_multiplier) * (self.config.depth_multiplier ** (-1 * self.config.depth_alpha_exp))
+                if 'lamb' in optimizer_name:
+                    adam_eps *= (self.config.depth_multiplier ** (-1 * self.config.depth_alpha_exp))
+                else:
+                    adam_eps *= (1 / self.config.mup_width_multiplier) * (self.config.depth_multiplier ** (-1 * self.config.depth_alpha_exp))
                 optim_groups = [
                     {
                         'params': emb_params,
-                        'weight_decay': weight_decay,
+                        'weight_decay': 1.0 if 'lamb' in optimizer_name else weight_decay,
                         'lr_scale': 1.0,
                     },
                     {
@@ -346,8 +364,8 @@ class GPT(nn.Module):
                     },
                     {
                         'params': hidden_weight_params,
-                        'weight_decay': weight_decay / width_lr_scaling,
-                        'lr_scale': width_lr_scaling * depth_lr_scaling,
+                        'weight_decay': weight_decay  if 'lamb' in optimizer_name else weight_decay / width_lr_scaling,
+                        'lr_scale': depth_lr_scaling if 'lamb' in optimizer_name else  width_lr_scaling * depth_lr_scaling,
                     },
                     {
                         'params': hidden_bias_params,
@@ -376,8 +394,8 @@ class GPT(nn.Module):
                     },
                     {
                         'params': hidden_weight_params,
-                        'weight_decay': weight_decay,
-                        'lr_scale': width_lr_scaling,
+                        'weight_decay': weight_decay / width_lr_scaling,
+                        'lr_scale': 1.0 if 'lamb' in optimizer_name else  width_lr_scaling,
                     },
                     {
                         'params': hidden_bias_params,
@@ -403,11 +421,39 @@ class GPT(nn.Module):
             print(f"num decayed parameter tensors: {len(decay_params)}, with {num_decay_params:,} parameters")
             print(f"num non-decayed parameter tensors: {len(nodecay_params)}, with {num_nodecay_params:,} parameters")
         # Create AdamW optimizer and use the fused version if it is available
-        fused_available = 'fused' in inspect.signature(torch.optim.AdamW).parameters
-        use_fused = fused_available and device_type == 'cuda'
-        extra_args = dict(fused=True) if use_fused else dict()
-        optimizer = torch.optim.AdamW(optim_groups, lr=learning_rate, betas=betas, eps=adam_eps, **extra_args)
-        print(f"using fused AdamW: {use_fused}")
+        #fused_available = 'fused' in inspect.signature(torch.optim.AdamW).parameters
+        #use_fused = fused_available and device_type == 'cuda'
+        #extra_args = dict(fused=True) if use_fused else dict()
+        #optimizer = torch.optim.AdamW(optim_groups, lr=learning_rate, betas=betas, eps=adam_eps, **extra_args)
+        #print(f"using fused AdamW: {use_fused}")
+        
+        opt_func = optimizer_dict[optimizer_name]
+
+        if optimizer_name == 'adamw':
+            use_fused = (device_type == 'cuda') and ('fused' in inspect.signature(torch.optim.AdamW).parameters)
+            print(f"Using fused AdamW: {use_fused}")
+            extra_args = dict(fused=True) if use_fused else dict()
+            optimizer = opt_func(optim_groups, lr=learning_rate, betas=betas, eps=adam_eps, **extra_args)
+        elif optimizer_name == 'sophiag':
+            optimizer = opt_func(optim_groups, lr=learning_rate, betas=betas, rho=rho)
+        elif optimizer_name == 'sophiatr':
+            optimizer = opt_func(optim_groups, lr=learning_rate, betas=betas, rho=rho)
+        elif optimizer_name == 'adopt':
+            extra_args = dict()
+            optimizer = opt_func(optim_groups, lr=learning_rate, betas=betas, decouple=True, **extra_args)
+        elif optimizer_name == 'sgd':
+            use_fused = (device_type == 'cuda') and ('fused' in inspect.signature(torch.optim.AdamW).parameters)
+            print(f"Using fused SGD: {use_fused}")
+            extra_args = dict(fused=True) if use_fused else dict()
+            optimizer = opt_func(optim_groups, lr=learning_rate, **extra_args)
+        elif optimizer_name == 'lamb':
+            use_fused = (device_type == 'cuda') and ('fused' in inspect.signature(torch.optim.AdamW).parameters)
+            print(f"Using fused Lamb: {use_fused}")
+            #extra_args = dict(fused=True) if use_fused else dict()
+            optimizer = opt_func(optim_groups, lr=learning_rate, betas=betas, eps=adam_eps)#, **extra_args)
+        else:
+            raise ValueError('Invalid optimizer.')
+
 
         return optimizer
 
